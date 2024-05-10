@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.menu{
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu nav a{
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 21px;
+    margin: 0 20px;
+}
+#syf{
+    color: black;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+nav a:hover{
+    color: black;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+.menu nav img{
+    margin: 0 40px;
+    width: 50px;
+    height: 50px;
+}
+#img:hover{
+    border: none;
+}
+.container{
+    padding: 60px;
+}
+.categories{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categories a{
+    color: white;
+    margin-right: 40px;
+    font-size: 32px;
+}
+.categories a:hover{
+    border-bottom: 2px solid white;
+}
+.container{
+    color: rgba(100, 100, 100, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.container h1{
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+}
+.table .table-top{
+    display: flex;
+    color: black;
+}
+.table-top h1{
+    text-align: center;
+    margin-right: 180px;
+    font-size: 24px;
+}
+.table ul{
+    display: flex;
+    width: 600px;
+    height: 50px;
+}
+.table ul li{
+    border: 1px solid grey;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-row{
+    display: flex;
+    color: grey;
+}
+.table-row h2{
+    margin-right: 50px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center
+}
